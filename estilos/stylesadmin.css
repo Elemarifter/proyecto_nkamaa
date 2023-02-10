@@ -1,0 +1,115 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(../img/planeta.png);
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  header{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:  #F9C7A1;
+    width: 700px;
+    
+  
+  }
+  
+  .logo{
+    display: flex;
+    height: 10px;
+    align-items: center;
+  }
+  
+  .logo img{
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav a{
+    font-weight: 600;
+    padding-right: 10px;
+  }
+  nav a:hover{
+    color: white;
+  }
+  @media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+  }
+  
+  .form-register {
+    width: fit-content;
+    height: fit-content;
+    background: #F9C7A1;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+    text-align: left;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    width: 90%;
+    background: #aacdc1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 10px;
+    
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+    border-radius: 10px;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #aacdc1;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid;
+  }
+  
