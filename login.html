@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="estilos/styleslog.css">
+    <title>Login - Nkamaa</title>
+    <link rel="shortcut icon" href="./img/LOGO.png" />
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .bienvenida{
+            background-color: #779ecb;
+            height: 20vh;
+            margin: 8%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/LOGO.png" alt="logo del proyecto">
+            <h2 class="nombre-empresa">Nkamaa</h2>
+        </div>
+        <nav>
+            <a href="" class="">Contacto</a>
+        </nav>
+    </header>
+    
+    <section class="form-register">
+        <h4>Iniciar Sesion</h4>
+        <form action="validarlogin.php" method="POST">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su Contraseña">
+            <input class="botons" type="submit" value="Ingresar">
+            <p><a href="index.html">¿no tienes cuenta?</a></p>
+        <form>
+        </section>
+    
+    </div>
+</body>
+</html>
