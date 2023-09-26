@@ -7,13 +7,13 @@
     $correo = $_POST["correo"];
     $contrasena = $_POST["contrasena"];
 
-    $sentencia = $base_de_datos->prepare("SELECT id, email, password FROM login WHERE email = ?;");
+    $sentencia = $base_de_datos->prepare("SELECT id, email, password FROM users WHERE email = ?;");
     $resultado = $sentencia->execute([$correo]); 
     $consulta = $sentencia->fetch(PDO::FETCH_OBJ);
     
     if ($correo = $consulta->email && $contrasena = $consulta->password) {
         $_SESSION["id"] = $consulta->id;
-        header("Location: adentroapp/paneladmin.php");
+        header("Location: adentroapp/perfil.php");
         exit();
     } else {
         header("Location: datovacio.html");
@@ -21,7 +21,7 @@
     }
 
 } else {
-    echo "error";
+    echo "pene";
 }
 
 
