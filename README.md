@@ -1,3 +1,4 @@
 # proyecto_nkamaa
-que bendicion
-the "nkamaa.sql" is the db, it must be imported in the phpmyadmin in localhost or the page won´t work.
+INSTRUCCIONES:
+Para iniciar la base de datos abrir el archivo dbcre.php. Para eliminarlo abrir dbbor.php.
+Para darse permisos de administrador utilizar phpmyadmin y cambiar el tipo de usuario a "A".
